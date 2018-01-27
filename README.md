@@ -12,6 +12,13 @@ Installation
 
 Just build run.
 
+or Use Dockerfile to build and run
+
+```
+docker build -t sniproxy .
+docker run -d -p 80:80 -p 443:443 sniproxy
+```
+
 Issue
 =====
 
