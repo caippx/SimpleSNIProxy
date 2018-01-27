@@ -19,6 +19,13 @@ docker build -t sniproxy .
 docker run -d -p 80:80 -p 443:443 sniproxy
 ```
 
+
+or Use Docker hub's pre-built version
+
+```
+docker run -d -p 80:80 -p 443:443 ziozzang/simplesniproxy
+```
+
 Issue
 =====
 
