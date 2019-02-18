@@ -7,6 +7,9 @@ Go Language's Performanace is not bad for network server, so written in Go Langu
 
 This code is came from the sub-product of Macadamia(L4/L7 Loadbanacer with Go).
 
+* This code can avoid korean HTTP SNI censorship.
+  * Tested: 2019-02-18 (with SK Broadband)
+
 Installation
 ============
 
